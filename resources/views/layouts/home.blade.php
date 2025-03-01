@@ -31,6 +31,26 @@
             <div class="text-gray-500 italic">No image available</div>
         @endif
     </div>
+</div>
 
+<!-- Social Media Links Section -->
+<div class="landing-page-socials mt-8 text-center">
+    <ul class="flex justify-center space-x-6">
+        <li class="social-link">
+            <a href="{{ $user->linkedin_url }}" aria-label="LinkedIn" target="_blank">
+                <i class="fa-brands fa-linkedin-in text-2xl text-blue-700 hover:text-blue-500"></i>
+            </a>
+        </li>
+        <li class="social-link">
+            <a href="{{ $user->github_url }}" aria-label="GitHub" target="_blank">
+                <i class="fa-brands fa-github text-2xl text-gray-800 hover:text-gray-600"></i>
+            </a>
+        </li>
+        <li class="social-link">
+            <a href="{{ $user->insta_url }}" aria-label="Instagram" target="_blank">
+                <i class="fa-brands fa-instagram text-2xl text-pink-600 hover:text-pink-400"></i>
+            </a>
+        </li>
+    </ul>
 </div>
 @endsection

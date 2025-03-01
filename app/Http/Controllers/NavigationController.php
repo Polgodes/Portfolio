@@ -26,7 +26,7 @@ class NavigationController extends Controller
             "user" => Setting::first(),
             "educations" => Education::get(),
             "experiences" => Experience::get(),
-            "techstasks" => TechStack::get(),
+            "techstacks" => TechStack::get(),
         ]);
     }
 
